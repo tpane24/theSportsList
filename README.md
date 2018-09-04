@@ -1,11 +1,11 @@
 # theSportsList
 Utilizes Laravel’s “out of the box” controllers to implement Two Authentication methods, one for participants and one for clients. 
 This app Utilizes 4 different Eloquent Models:
-  1) Client.php
-    a) It is an authenticatable model that implements a custom $guard = 'client';
-    b) The Client.php Model is the "User" model for theSportsList's advertising section.
-    C) It uses the table clients which is created from a migration.
-  2) Participant.php
+  1) Client.php<br>
+    a) It is an authenticatable model that implements a custom $guard = 'client';<br>
+    b) The Client.php Model is the "User" model for theSportsList's advertising section.<br>
+    C) It uses the table clients which is created from a migration.<br>
+  2) Participant.php<br>
     a) It is an authenticatable model that implements a custom $guard = 'participant';
     b) The Participant.php Model is the "User" model for theSportsList's advertising section.
     C) It uses the table participants which is created from a migration.
