@@ -1,0 +1,96 @@
+#animationContainer {
+  height: 100vh;
+  align-content: center;
+}
+#animationBrandText {
+  margin-top: 20%;
+}
+.writeit {
+  font-size: 20pt;
+  line-height: 53px;
+  text-align: center;
+  padding: 31.5px 0 70px 0;
+}
+
+.after {
+-webkit-animation-delay: 500ms; -moz-animation-delay: 500ms; -ms-animation-delay: 500ms; -o-animation-delay: 500ms; animation-delay: 500ms;
+  animation: blink 1.3s infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+  to { opacity: 1;}
+}
+
+.credits {
+  font-size: 20pt;
+  text-align: center;
+  padding: 13px 0 0px 0;
+}
+
+.credits a {
+  color: #FFF
+}
+
+/* This is css for the arrow: */
+
+.arrows {
+	width: 60px;
+	height: 72px;
+	position: absolute;
+	left: 50%;
+	margin-left: -30px;
+	bottom: 20px;
+}
+
+.arrows path {
+	stroke: #2994D1;
+	fill: transparent;
+	stroke-width: 1px;
+	animation: arrow 2s infinite;
+	-webkit-animation: arrow 2s infinite;
+}
+
+@keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+.arrows path.a1 {
+	animation-delay:-1s;
+	-webkit-animation-delay:-1s; /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+	animation-delay:-0.5s;
+	-webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+}
+
+.arrows path.a3 {
+	animation-delay:0s;
+	-webkit-animation-delay:0s; /* Safari 和 Chrome */
+}
+
+/* this is for the container for sports and advertising */
+.container {
+  display: none;
+  padding-top: 25vh;
+}
+
+.container div {
+  opacity: .8;
+}
+.container div:hover {
+  opacity: 1;
+}

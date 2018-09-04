@@ -1,0 +1,212 @@
+.blue-brand-text {
+    color:#3263cd;
+}
+.blue-text {
+    color:#0066ff;
+}
+.light-blue-text {
+    color:#66b3ff;
+}
+.lightest-blue-text {
+    color:#b3ecff;
+}
+.gray-text {
+    color:#80808c;
+}
+.light-gray-text {
+    color:#d9d9d4;
+}
+.dark-white-text {
+    color: #f2f2f3;
+}
+.white-text {
+    color: white;
+}
+.black-text {
+    color: #0d0d0d;
+}
+.padding-bottom-50 {
+    padding-bottom: 50px;
+}
+.blue-button {
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #66b3ff;
+    color: #f2f2f3;
+    border: none;
+    border-radius: 5px;
+    height: 45px;
+    min-width: 25%;
+}
+.blue-button:hover {
+    background-color: #f2f2f3;
+    color: #66b3ff;
+    border: solid 1px #66b3ff;
+}
+.blue-button:focus {
+    background-color: #f2f2f3;
+    color: #66b3ff;
+    border: solid 1px #66b3ff;
+}
+.banner-title {
+    /* border-bottom: solid .05px #0d0d0d; */
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+#navContainer {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    background-color: #f2f2f3;
+    border-bottom:solid 5px white;
+    border-radius:10px;
+}
+#navBar {
+    background-color: #f2f2f3;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#splashContainer {
+    background-color: white;
+}
+
+.container a:hover {
+  text-decoration: none;
+}
+
+.contentTextFull {
+    width:80%;
+    margin-left: 10%;
+}
+.bannerWhiteFull {
+    width: 60%;
+    margin-left: 20%;
+    display: inline-block;
+    margin-top: 40px;
+    border:solid 4px #e8ebed;
+    border-bottom: 0px;
+    border-radius:10px;
+    min-height: 40px;
+    background-color: #e8ebed;
+}
+.contentWhiteFull {
+    display: inline-block;
+    width: 60%;
+    margin-left: 20%;
+    border:solid 4px white;
+    border-radius:10px;
+    min-height: 350px;
+    background-color: white;
+}
+.contentGrayHalfLeft {
+    display: inline-block;
+    float: left;
+    width: 49%;
+    border:solid 4px #66b3ff;
+    border-radius:10px;
+    min-height: 350px;
+    background-color: #e8ebed;
+}
+.contentWhiteHalfRight {
+    display: inline-block;
+    float: right;
+    width: 49%;
+    border:solid 4px white;
+    border-radius:10px;
+    min-height: 350px;
+    background-color: white;
+}
+.contentContainer {
+    height: auto;
+    min-height: 1500px;
+    border-radius: 20px;
+    background-color: #f2f2f3;
+    padding-bottom: 25px;
+}
+
+/* Edit bootstrap elements*/
+.col label {
+  padding-top: 5px;
+  padding-bottom: 3px;
+}
+
+/* Input style from recConnected */
+.inputHalf {
+  width:40%;
+  height:40px;
+}
+.inputFull {
+  width:81%;
+  height:40px;
+}
+.inputStyle {
+  font-family: 'Raleway', sans-serif;
+  font-size:17px;
+  font-weight:400;
+  color:#5a6972;
+  text-indent:5px;
+  border-radius:5px;
+}
+.inputStyle {
+  color:#5a6972;
+  background-color: #e8ebed;
+  border:2px solid #e8ebed;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition:all 0.3s ease-out;
+}
+.inputStyle:focus {
+  background-color:white;
+  color:#100a0a;
+  border:2px solid #100a0a;;
+}
+.input2char {
+  display: inline-block;
+  width: 25%;
+  margin-right:1.5%;
+}
+.input4char {
+  display: inline-block;
+  width: 30%;
+}
+
+/* style for text boxes */
+.textBox {
+
+}
+.textBoxHeader {
+  text-align: center;
+}
+.textBoxLeft {
+  display: inline-block;
+  float: left;
+  width: 49%;
+  border:solid 4px #66b3ff;
+  border-radius:10px;
+  min-height: 350px;
+  background-color: #e8ebed;
+}
+.textBoxRight {
+  display: inline-block;
+  float: right;
+  width: 49%;
+  /* border:solid 4px white;
+  border-radius:10px; */
+  min-height: 350px;
+  /* background-color: white; */
+}
+.indentText {
+  padding-left: 5%;
+}
+
+footer {
+  text-align: center;
+  color: #808080;
+  font-size: 12px;
+  padding: 30px;
+}
+footer a:hover {
+  color: #66b3ff;
+}

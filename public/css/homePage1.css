@@ -1,0 +1,1147 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Set box sizing to border-box */
+* {
+  box-sizing:border-box;
+}
+
+/* Get rid of a element's underline */
+a {
+  text-decoration:none;
+}
+
+/* Set full and regular containers */
+#fulltopBanner,
+#fullpromo,
+#fullhowit,
+#fulltestimony,
+#fullfooter,
+#fulladdsignin,
+#fullhowit,
+#fulltestimony,
+#fullwhyAdvertise,
+.fullfullForm,
+#fullsportsPage,
+#fullfitnessPage,
+.fullview {
+  width:100%;
+  border-bottom:solid 1px transparent;
+  border-bottom-color:#e9f0f3;
+}
+#topBanner,
+#promo,
+#howit,
+#testimony,
+#footer,
+#addsignin,
+#howit,
+#testimony,
+#whyAdvertise,
+.fullForm,
+#sportsPage,
+#fitnessPage,
+.view {
+  width:65%;
+  margin-left:17.5%; /*smaller*/
+  margin-right:17.5%; /*smaller*/
+}
+ /* Nav settings: */
+#loggedIN {
+  display:inline-block;
+  float:left;
+  margin-left:10%;
+  margin-top:2px;
+}
+#fulltopGap {
+  height:105px;
+}
+#fulltopBanner {
+  height:105px;
+  background-color:#ffffff;
+  position:fixed;
+}
+#topBanner {
+  height:105px;
+  background-color:transparent;
+}
+#topBanner ul {
+  font-family: 'Raleway', sans-serif;
+  font-size:18px;
+  font-weight:bold;
+  float:right;
+  width:55%;
+  margin-top:3%;
+}
+#topBanner ul li {
+  display:inline-block;
+  width:30%;
+  padding-left:0px;
+  padding-right:0px;
+  margin-right:0px;
+  margin-left:2%;
+  text-align:right;
+}
+#topBanner ul li a:link,
+#topBanner ul li a:visited,
+#topBanner ul li a:active {
+  color:#504949;
+}
+#topBanner ul li a:hover {
+  color:#100a0a;
+}
+.mainLogo {
+  margin-top:25px;
+  display:inline-block;
+  float:left;
+}
+.mainLogo a,
+.mainLogo a:active,
+.mainLogo a:link,
+.mainLogo a:visited {
+  font-family: 'Raleway', sans-serif;
+  font-size:34px;
+  font-weight:600;
+  color:#100a0a;
+}
+.mainLogo a:hover {
+  color:#504949;
+}
+.mainLogoSymbol {
+  border:solid 1px orange;
+  border-radius:100%;
+  text-align:center;
+  font-size:44px;
+  padding-left:5px;
+  padding-right:5px;
+  margin-right:5px;
+}
+
+/* footer layer: */
+#fullfooter {
+  height:200px;
+  background-color:white;
+}
+#footer {
+  background-color:transparent;
+}
+#footerlogo {
+  text-align:center;
+  font-family: 'Roboto Slab', serif;
+  font-weight:700;
+  font-size:40px;
+  line-height:1.5;
+  color:#100a0a;
+  padding-top:15px;
+}
+#footerlinks {
+  padding-top:40px;
+  text-align:center;
+  font-family: 'Raleway', sans-serif;
+  font-size:18px;
+  font-weight:bold;
+}
+#footerlinks a:link,
+#footerlinks a:visited{
+  color:#504949;
+}
+#footerlinks a:hover {
+  color:#100a0a;
+}
+
+/* ---Content repeatable: *//*Full length red promo banners: */
+/*classes*/
+.container100 {
+  width:100%;
+  background-color:transparent;
+}
+.leftPromoContainer {
+  width:50%;
+  background-color:transparent;
+  margin-left:0px;
+  padding-left:0px;
+  display:inline-block;
+  float:left;
+}
+.rightPromoContainer {
+  width:50%;
+  background-color:transparent;
+  height:475px;
+  float:right;
+  display:inline-block;
+}
+.fullRow {
+  height:70px;
+  width:85%;
+  margin-left:7.5%;
+  margin-right:7.5%;
+  text-align:center;
+}
+.promoForm {
+  background-color:white;
+  border:solid 4px #fa3838;
+  border-radius:10px;
+}
+.promoLink {
+  margin-top:7.5px;
+}
+.inputHalf {
+  width:40%;
+  height:40px;
+}
+.inputFull {
+  width:81%;
+  height:40px;
+}
+.inputStyle {
+  font-family: 'Raleway', sans-serif;
+  font-size:17px;
+  font-weight:400;
+  color:#5a6972;
+  text-indent:5px;
+  border-radius:5px;
+}
+.inputStyle {
+  color:#5a6972;
+  background-color: #e8ebed;
+  border:2px solid #e8ebed;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition:all 0.3s ease-out;
+}
+.inputStyle:focus {
+  background-color:white;
+  color:#100a0a;
+  border:2px solid #100a0a;;
+}
+.button {
+  width:40%;
+  height:auto;
+  font-family: 'Roboto Slab', serif;
+  font-weight:700;
+  font-size:24px;
+  line-height:1.5;
+  border-radius:5px;
+}
+.button {
+  color:white;
+  border:solid 2px #f90606;
+  background-color:#f90606;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition:all 0.2s ease-out;
+}
+.button:hover {
+  color:#f90606;
+  border:solid 2px #100a0a;
+  background-color:white;
+}
+.buttonWhiteToRed {
+  width:40%;
+  height:55px;
+  font-family: 'Roboto Slab', serif;
+  font-weight:700;
+  font-size:24px;
+  line-height:1.5;
+  border-radius:5px;
+}
+.buttonWhiteToRed {
+  color:#f90606;
+  border:solid 2px #100a0a;
+  background-color:white;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition:all 0.2s ease-out;
+}
+.buttonWhiteToRed:hover {
+  color:white;
+  border:solid 2px #f90606;
+  background-color:#f90606;
+}
+.banner36red {
+  font-family: 'Roboto Slab', serif;
+  font-weight:700;
+  font-size:40px;
+  line-height:1.5;
+  color:#f90606;
+  background-color:transparent;
+}
+.banner36white {
+  font-family: 'Roboto Slab', serif;
+  font-weight:700;
+  font-size:40px;
+  line-height:1.5;
+  color:white;
+  background-color:transparent;
+}
+.banner20white {
+  font-family: 'Roboto Slab', serif;
+  font-weight:700;
+  font-size:24px;
+  line-height:1.5;
+  color:white;
+  background-color:transparent;
+}
+.banner16white {
+  font-family: 'Roboto Slab', serif;
+  font-weight:700;
+  font-size:20px;
+  line-height:1.5;
+  color:white;
+  background-color:transparent;
+}
+.promo24orange {
+  background-color:transparent;
+  font-family: 'Roboto Slab', serif;
+  font-weight:700;
+  font-size:28px;
+  line-height:1.5;
+  color: orange;
+}
+.promo36orange {
+  background-color:transparent;
+  font-family: 'Roboto Slab', serif;
+  font-weight:700;
+  font-size:40px;
+  line-height:1.5;
+  color: orange;
+}
+.grayLine {
+  margin-left:15%;
+  width:70%;
+  height:1px;
+  background-color:#e8ebed;
+}
+
+/*homepage 1*/
+#loggedIN {
+  float:center;
+}
+#fullpromo {
+  background-color:#f90606;
+  height:500px;
+}
+#promo {
+  background-color:transparent;
+  height:500px;
+}
+#leftPromoContainer1 {
+  text-align:left;
+  padding-top:35px;
+}
+#partSignUp {
+  margin-top:75px;
+  margin-right:3%;
+  height:370px;
+}
+#banner36white1 {
+  height:200px;
+  padding-top:150px;
+}
+#banner16white1 {
+  padding-top:10px;
+}
+#banner20white1 {
+  width:100%;
+  height:75px;
+  background-color:#fa3838;
+  padding-top:20px;
+  text-align:center;
+  border:solid 2px #fa3838;
+}
+#partFirstName,
+#partLastName {
+  margin-top:22px;
+}
+#partEmail1 {
+  margin-top:27px;
+}
+#partPassword1 {
+  margin-top:17px;
+}
+#grayLine1 {
+  margin-top:7px;
+}
+#partNewAccount {
+  margin-top:16px;
+}
+/*Advertsing2*/
+#fulladdsignin {
+  background-color:#f90606;
+  height:600px;
+}
+#addsignin {
+  background-color:transparent;
+  height:600px;
+}
+#banner36white2 {
+  color: white;
+  padding-top:15px;
+  background-color:transparent;
+  text-align:center;
+}
+#banner20white2 {
+  padding-top:20px;
+  text-align:center;
+  width:100%;
+  height:75px;
+  background-color:#fa3838;
+}
+#banner16white2 {
+  text-align:center;
+}
+#banner16white22 {
+  text-align:center;
+  margin-top:15px;
+  width:50%;
+  margin-left:25%;
+  text-align:center;
+}
+#leftPromoContainer2 {
+  text-align:conter;
+  margin-top:95px;
+  border:solid 2px #100a0a;
+  border-radius:10px;
+  height:325px;
+  background-color:#5a6972;
+}
+#promo24orange2 {
+  width:100%;
+  padding-top:25px;
+  padding-bottom:10px;
+  text-align:center;
+
+}
+#promotionButtonAddSignIn {
+  margin-top:35px;
+}
+#emailSignin {
+  margin-top:30px;
+}
+#passSignin{
+  margin-top:25px;
+}
+#advertisingSignin {
+  margin-top:20px;
+  height:400px;
+}
+#fullRow2 {
+  margin-top:20px;
+}
+#fullRow2 span {
+  padding-right:15px;
+}
+#grayLine2 {
+  margin-top:-20px;
+  margin-bottom: 15px;
+}
+#center {
+  text-align:center;
+}
+
+/* ---Content repeatable: *//*narrow down the middle --steals classes from redbanner */
+/*classes */
+.narrowStack {
+  width:65%;
+  margin-left:17.5%;
+  background-color:transparent;
+  text-align:center;
+}
+.banner20BlackDark {
+  font-family: 'Roboto Slab', serif;
+  font-weight:700;
+  font-size:24px;
+  line-height:1.5;
+  color:#100a0a;
+}
+.narrowContainer {
+  background-color:transparent;
+  width:80%;
+  margin-left:10%;
+}
+.narrowMiniBanner {
+  font-family: 'Raleway', sans-serif;
+  font-size:19px;
+  font-weight:600;
+  color:#100a0a;
+}
+.narrowRightBanner {
+  padding-top:25px;
+  text-align:left;
+  width:50%;
+  margin-left:50%;
+}
+.narrowLeftBanner {
+  padding-top:25px;
+  text-align:left;
+  width:50%;
+  margin-left:0%;
+}
+.narrowText {
+  font-family: 'Raleway', sans-serif;
+  font-size:19px;
+  font-weight:400;
+  color:#504949;
+  text-align:left;
+  background-color:transparent;
+  line-height:18px;
+  vertical-align:bottom;
+}
+.narrowRightText {
+  padding-top:10px;
+  width:50%;
+  margin-left:50%;
+}
+.narrowLeftText {
+  padding-top:10px;
+  width:50%;
+  margin-left:0;
+}
+.red {
+  color: #f90606;
+}
+
+/* homepage 3 */
+#fullhowit  {
+  height:700px;
+  background-color:white;
+}
+#howit {
+  background-color:transparent;
+}
+#banner20BlackDark1 {
+  height:125px;
+  padding-top:100px;
+  margin-bottom:20px;
+  background-color:transparent;
+}
+/* sports page 9 */
+#fullsportsOffered {
+  height:5000px;
+  background-color:white;
+  border-bottom:solid 1px #5a6972;
+}
+#sportsOffered {
+  height:5000px;
+}
+/* fitness page */
+#fullfitnessOffered {
+  height:auto;
+  padding-bottom:20px;
+  background-color:white;
+  border-bottom:solid 1px #5a6972;
+}
+
+
+/* ---Content repeatable: *//* Testimonial */
+/*Classes */
+.testimonyMiniBanner {
+  font-family: 'Raleway', sans-serif;
+  font-size:19px;
+  font-weight:600;
+  color:#100a0a;
+  width:65%;
+  margin-left:17.5%;
+  background-color:transparent;
+  text-align:center;
+  height:125px;
+  padding-top:75px;
+  border-bottom:solid 1px #5a6972;
+}
+.containertestimony {
+  height:auto;
+  width:100%;
+  background-color:transparent;
+}
+.testimonyText {
+  padding-top:15px;
+  font-family: 'Raleway', sans-serif;
+  font-size:19px;
+  font-weight:400;
+  color:#504949;
+  background-color:transparent;
+  line-height:20px;
+  vertical-align:bottom;
+}
+.testimonyLeftText {
+  text-align:left;
+  padding-right:5%;
+}
+.testimonyRightText {
+  padding-left:5%;
+  text-align:left;
+}
+.testimonyRight {
+  width:50%;
+  height:250px;
+  background-color:transparent;
+  float:right;
+  display:inline-block;
+  border-left:solid .5px #5a6972;
+}
+.testimonyLeft {
+  width:50%;
+  height:250px;
+  background-color:transparent;
+  display:inline-block;
+  border-right:solid .5px #5a6972;
+}
+.testimonyIdentity {
+  text-align:left;
+  padding-top:10px;
+  font-family: 'Raleway', sans-serif;
+  font-size:19px;
+  font-weight:600;
+  color:#100a0a;
+}
+.testimonyRightIdentity {
+  padding-left:5%;
+}
+.black {
+  font-family: 'Raleway', sans-serif;
+  font-size:19px;
+  font-weight:600;
+  color:#100a0a;
+}
+
+/*Testimonial 4*/
+#fulltestimony {
+  height:500px;
+  background-color:#e8ebed;
+}
+#testimony {
+  background-color:transparent;
+}
+/* sports Page 8 */
+#fullsportsPage {
+  background-color:#e8ebed;
+  height:425px;
+  border-bottom:solid 1px #5a6972;
+}
+#sportsPage {
+  background-color:transparent;
+  height:425px;
+  text-align:center;
+}
+
+/*why Advertise? 5*/
+#fullwhyAdvertise {
+  height:500px;
+  background-color:#e8ebed;
+}
+#whyAdvertise {
+  background-color:transparent;
+}
+.testimonyText ul li {
+  padding-top:7.5px;
+  padding-bottom:7.5px;
+}
+
+/* fitness page */
+#fullfitnessPage {
+  height:1250px;
+  padding-bottom:20px;
+  background-color:#e8ebed;
+  border-bottom:solid 1px #5a6972;
+}
+
+/* ---Content repeatable: *//*Full screen forms: */
+/* uses classes from full promo */
+.containerForm {
+  width:75%;
+  margin-left:12.5%;
+  height:500px;
+  background-color:transparent;
+}
+.bannerForm {
+  text-align:center;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+.minibannerForm {
+  text-align:center;
+  background-color:#fa3838;
+  width:100%;
+  height:100px;
+  padding-top:35px;
+}
+.sectionHeaderForm {
+  text-align:left;
+  padding-left:7.5%;
+  padding-top:15px;
+  padding-bottom:25px;
+}
+.sectionNumber {
+  width:20px;
+  border:solid 1px #f90606;
+  border-radius:100%;
+  text-align:center;
+  font-size:24px;
+  padding:2px;
+}
+.logoSymbol {
+  border:solid 1px orange;
+  border-radius:100%;
+  text-align:center;
+  font-size:24px;
+  padding-left:5px;
+  padding-right:5px;
+  margin-right:5px;
+}
+/* advertising sign up 6*/
+#fullfullForm {
+  height:1050px;
+  background-color:white;
+}
+#fullForm {
+  height:1000px;
+  background-color:transparent;
+}
+#advertisingSignup {
+  height:900px;
+}
+#signupbtn {
+  margin-top:20px;
+}
+
+/* User Sign up */
+#userFullForm {
+  height:1200px;
+}
+#userSignUp {
+  height:auto;
+  padding-bottom:20px;
+}
+#userSignupbtn {
+  margin-top:20px;
+}
+
+/* ---Content repeatable: *//* advertising homepage form*/
+.fullhomepageAdd {
+  width:100%;
+  border-top:solid 4px #e8ebed;
+  border-bottom:solid 1px transparent;
+  border-bottom-color:#e9f0f3;
+  height:1200px;
+  background-color:#5a6972;
+}
+.homepageAddNav {
+  width:7.5%;
+  height:100%;
+  margin-left:0;
+  background-color:#e8ebed;
+  position:fixed;
+  border-right:solid 4px #e8ebed;
+}
+.navContainers {
+  width:100%;
+  height:14%;
+  background-color:transparent;
+  margin-top:4%;
+  text-align:center;
+  background-color:#5a6972;
+}
+.navButtons {
+  height:50%;
+  width:90%;
+  margin-left:2.5%;
+  margin-top:25%;
+  font-family: 'Roboto Slab', serif;
+  font-weight:700;
+  font-size:18px;
+  line-height:1.5;
+  border-radius:5px;
+}
+.navButtons {
+  color:#f90606;
+  border:solid 2px #100a0a;
+  background-color:white;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition:all 0.2s ease-out;
+}
+.navButtons:hover {
+  color:white;
+  border:solid 2px #f90606;
+  background-color:#f90606;
+}
+.homepageAdd {
+  width:85%;
+  margin-left:7.5%;
+  margin-right:7.5%; /*smaller*/
+  height:800px;
+}
+.homepageAddBanner {
+  width:100%;
+  padding-top:40px;
+  text-align:center;
+  margin-bottom:10px;
+}
+.homepageAddContent { /* smaller */
+  width:65%;
+  margin-left:17.5%;
+  margin-right:17.5%;
+  height:400px;
+  background-color:transparent;
+}
+.fullRowButton {
+  text-align:center;
+  height:100px;
+  width:85%;
+  margin-left:7.5%;
+  margin-right:7.5%;
+  margin-top:10px;
+}
+.select {
+  width:30%;
+  background-color:#fa3838;
+  border:solid 1px #100a0a;
+  border-radius:5px;
+  color:white;
+}
+.input2char {
+  width:6.5%;
+  background-color:#fa3838;
+  border:solid 1px #100a0a;
+  border-radius:5px;
+  margin-right:1.5%;
+  color:white;
+  text-indent:2px;
+}
+.input4char {
+  width:10%;
+  background-color:#fa3838;
+  border:solid 1px #100a0a;
+  border-radius:5px;
+  color:white;
+  text-indent:2px;
+}
+.fullDescription {
+
+}
+.questionButton {
+  width:25px;
+  border-radius:100%;
+  text-align:center;
+  margin-top:20px;
+}
+.questionButton {
+  background-color:#e8ebed;
+  color:#100a0a;
+  border:solid 1px #f90606;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition:all 0.2s ease-out;
+}
+.questionButton:hover {
+  background-color:white;
+  color:#f90606;
+  border:solid 1px #100a0a
+}
+.grayLineAdd {
+  margin-bottom:25px;
+  margin-left:15%;
+  width:70%;
+  height:1px;
+  background-color:#e8ebed;
+}
+.buttonLink {
+  border:none;
+  background-color:white;
+}
+.buttonLink:hover {
+  color:#fa3838;
+}
+/* advertiting homepage 7*/
+#dropDates {
+ margin-bottom:10px;
+}
+
+/* ---Content repeatable: *//* advertising homepage table */
+.table {
+  width:100%;
+  text-align:center;
+  border:solid 3px white;
+  margin-top:50px;
+}
+.table td,
+.table th { /* maybe delete this and let it auto assign widths.. */
+  width:14%;
+  border:solid 1px white;
+}
+.table th {
+  padding-top:15px;
+  padding-bottom:15px;
+}
+.table td {
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+/* ---Content repeatable: *//* full add views: */
+.fullview {
+  height:1500px;
+  background-color:#f90606;
+}
+.view {
+  height:1500px;
+  background-color:#e8ebed;
+}
+.viewContainer {
+  text-align:center;
+}
+.viewInfoRow {
+  width:90%;
+  margin-left:5%;
+  height:36px;
+  padding-top:10px;
+}
+.banner36darkgray {
+  font-family: 'Roboto Slab', serif;
+  font-weight:700;
+  font-size:40px;
+  line-height:1.5;
+  color:#100a0a;
+  background-color:transparent;
+}
+
+.banner20darkgray {
+  font-family: 'Roboto Slab', serif;
+  font-weight:700;
+  font-size:24px;
+  line-height:1.5;
+  color:#100a0a;
+  background-color:transparent;
+}
+.viewTitle {
+  padding-top:30px;
+}
+.viewInstructor {
+  padding-top:10px;
+  padding-bottom:30px;
+  margin-top:10px;
+  margin-bottom:30px;
+  background-color:transparent;
+}
+.banner16black {
+  font-family: 'Roboto Slab', serif;
+  font-weight:700;
+  font-size:20px;
+  line-height:1.5;
+  color:#100a0a;
+  background-color:transparent;
+}
+.banner14lightblack {
+  font-family: 'Roboto Slab', serif;
+  font-weight:700;
+  font-size:18px;
+  line-height:1.5;
+  color:#504949;
+  background-color:transparent;
+}
+.viewDescription {
+  margin-top:40px;
+  text-align:left;
+  width:60%;
+  margin-left:20%;
+  border:solid 1px #5a6972;
+  padding:10px;
+}
+/* vh banners */
+.banner36vh {
+  font-family: 'Roboto Slab', serif;
+  font-weight:700;
+  font-size:4vh;
+  line-height:1.5;
+  color:#100a0a;
+  background-color:transparent;
+}
+.banner20vh {
+  font-family: 'Roboto Slab', serif;
+  font-weight:700;
+  font-size:2.6vh;
+  line-height:1.5;
+  color:#100a0a;
+  background-color:transparent;
+}
+.banner16vh {
+  font-family: 'Roboto Slab', serif;
+  font-weight:700;
+  font-size:2.2vh;
+  line-height:1.5;
+  color:#100a0a;
+  background-color:transparent;
+}
+.banner14vh {
+  font-family: 'Roboto Slab', serif;
+  font-weight:700;
+  font-size:2vh;
+  line-height:1.5;
+  color:#504949;
+  background-color:transparent;
+}
+.autoHeight {
+  height:4500px;
+  margin-bottom:10px;
+}
+
+@media all and (max-width: 1650px) {
+  #topBanner,
+  #promo,
+  #howit,
+  #testimony,
+  #footer,
+  #addsignin,
+  #howit,
+  #testimony,
+  #whyAdvertise,
+  .fullForm,
+  #sportsPage,
+  #fitnessPage,
+  .view {
+    width:75%;
+    margin-left:12.5%; /*smaller*/
+    margin-right:12.5%; /*smaller*/
+  }
+}
+@media all and (max-width: 1400px) {
+  #topBanner,
+  #promo,
+  #howit,
+  #testimony,
+  #footer,
+  #addsignin,
+  #howit,
+  #testimony,
+  #whyAdvertise,
+  .fullForm,
+  #sportsPage,
+  #fitnessPage,
+  .view {
+    width:85%;
+    margin-left:7.5%; /*smaller*/
+    margin-right:7.5%; /*smaller*/
+  }
+  #sportsOffered,
+  #fullsportsOffered {
+    height:5500px;
+  }
+  .homepageAddNav {
+    width:15%;
+  }
+  .homepageAdd {
+    width:82.5%;
+    margin-left:15%;
+    margin-right:2.5%;
+    height:800px;
+  }
+  .homepageAddContent { /* smaller */
+    width:85%;
+    margin-left:7.5%;
+    margin-right:7.5%;
+  }
+}
+@media all and (max-width: 1250px) {
+  #topBanner,
+  #promo,
+  #howit,
+  #testimony,
+  #footer,
+  #addsignin,
+  #howit,
+  #testimony,
+  #whyAdvertise,
+  .fullForm,
+  #sportsPage,
+  #fitnessPage,
+  .view {
+    width:95%;
+    margin-left:2.5%; /*smaller*/
+    margin-right:2.5%; /*smaller*/
+  }
+  #sportsOffered,
+  #fullsportsOffered {
+    height:auto;
+  }
+}
+@media all and (max-width: 1000px) {
+  .narrowContainer {
+    width:95%;
+    margin-left:2.5%;
+  }
+  .leftPromoContainer {
+    width:48%;
+    background-color:transparent;
+    margin-left:0px;
+    padding-left:0px;
+    display:inline-block;
+    float:left;
+  }
+  .rightPromoContainer {
+    width:48%;
+    background-color:transparent;
+    height:475px;
+    float:right;
+    display:inline-block;
+  }
+}
+@media all and (max-width: 800px) {
+  #fullhowit {
+    height:800px;
+  }
+}
