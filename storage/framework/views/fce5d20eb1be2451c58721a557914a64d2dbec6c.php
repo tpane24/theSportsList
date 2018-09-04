@@ -1,0 +1,12 @@
+<option <?php if ($endHour == "01") { echo 'selected'; } ?>>01</option>
+<option <?php if ($endHour == "02") { echo 'selected'; } ?>>02</option>
+<option <?php if ($endHour == "03") { echo 'selected'; } ?>>03</option>
+<option <?php if ($endHour == "04") { echo 'selected'; } ?>>04</option>
+<option <?php if ($endHour == "05") { echo 'selected'; } ?>>05</option>
+<option <?php if ($endHour == "06") { echo 'selected'; } ?>>06</option>
+<option <?php if ($endHour == "07") { echo 'selected'; } ?>>07</option>
+<option <?php if ($endHour == "08") { echo 'selected'; } ?>>08</option>
+<option <?php if ($endHour == "09") { echo 'selected'; } ?>>09</option>
+<option <?php if ($endHour == "10") { echo 'selected'; } ?>>10</option>
+<option <?php if ($endHour == "11") { echo 'selected'; } ?>>11</option>
+<option <?php if ($endHour == "12") { echo 'selected'; } ?>>12</option>
